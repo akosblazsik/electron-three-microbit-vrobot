@@ -1,9 +1,7 @@
-# electron-serialport
-An example of how to use serialport in an electron app
+# microbit-vrobot
+An example of how to build a virtual robot with Micro:bit, Three.js, serialport and Electron.
 
-**Clone and run for a quick way to see Electron and Serialport in action.**
-
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start) within the Electron documentation.
+**Clone and run for a quick way to see Electron, Serialport, Three.js in action.**
 
 **Use this app along with the [Electron API Demos](http://electron.atom.io/#get-started) app for API code examples to help you get started.**
 
@@ -13,7 +11,6 @@ A basic Electron application needs just these files:
 - `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
 - `index.html` - A web page to render. This is the app's **renderer process**.
 
-You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start).
 
 ## To Use
 
@@ -31,11 +28,5 @@ npm start
 ```
 
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/).
-
-## Other Example Apps
-
-For more example apps, see the
-[list of boilerplates](http://electron.atom.io/community/#boilerplates)
-created by the awesome electron community.
 
 #### License [CC0 1.0 (Public Domain)](LICENSE.md)
