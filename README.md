@@ -1,2 +1,2 @@
-# electron-three-microbit-vrobot
+# microbit-vrobot
 Virtual robot built with Electron, Three.js and Micro:bit
