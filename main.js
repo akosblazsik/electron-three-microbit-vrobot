@@ -1,7 +1,9 @@
 const electron = require('electron')
-    // Module to control application life.
+// Module to control application life.
 const app = electron.app
-    // Module to create native browser window.
+
+electron.app.allowRendererProcessReuse = false;
+// Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow
 
 const path = require('path')
@@ -65,6 +67,3 @@ app.on('activate', function() {
         createWindow()
     }
 })
-
-// In this file you can include the rest of your app's specific main process
-// code. You can also put them in separate files and require them here.
