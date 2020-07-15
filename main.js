@@ -2,7 +2,9 @@ const electron = require('electron')
 // Module to control application life.
 const app = electron.app
 
+// Enable loading of non-context-aware native modules in the renderer process. 
 electron.app.allowRendererProcessReuse = false;
+
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow
 
