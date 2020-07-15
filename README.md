@@ -28,8 +28,8 @@ npm start
 ```
 
 ## The micro:bit snippets and blocks for the project
-The receiver: https://github.com/akosblazsik/microbit-vrobot-receiver
-The remote control: https://github.com/akosblazsik/microbit-vrobot-remote-control
+- The receiver: https://github.com/akosblazsik/microbit-vrobot-receiver
+- The remote control: https://github.com/akosblazsik/microbit-vrobot-remote-control
 
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/).
 Learn more about Three.js and its API in the [documentation](http://threejs.org/docs/).
