@@ -31,6 +31,9 @@ npm start
 - The receiver: https://github.com/akosblazsik/microbit-vrobot-receiver
 - The remote control: https://github.com/akosblazsik/microbit-vrobot-remote-control
 
-Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/).
-Learn more about Three.js and its API in the [documentation](http://threejs.org/docs/).
+## Learn More
+- Electron and its API in the [documentation](https://electron.atom.io/docs/).
+- Serialport and its API in the [documentation](https://serialport.io/docs/).
+- Three.js and its API in the [documentation](https://threejs.org/docs/).
+
 #### License [CC0 1.0 (Public Domain)](LICENSE.md)
