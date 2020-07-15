@@ -9,6 +9,10 @@ The basic Electron application needs just these files:
 - `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
 - `index.html` - A web page to render. This is the app's **renderer process**.
 
+The micro:bit files:
+
+- `microbit-receiver.hex` - The program to be transfered to the receiver (connected to a usb port) micro:bit device.
+- `microbit-remote-control.hex` - The program to be transfered to the remote control micro:bit device.
 
 ## To Use
 
@@ -27,7 +31,7 @@ sudo chmod 666 /dev/ttyACM0
 npm start
 ```
 
-## The micro:bit snippets and blocks for the project
+## The micro:bit programs are also available as github repositories for easy import in MakeCode
 - The receiver: https://github.com/akosblazsik/microbit-vrobot-receiver
 - The remote control: https://github.com/akosblazsik/microbit-vrobot-remote-control
 
