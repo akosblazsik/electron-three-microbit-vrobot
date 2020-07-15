@@ -3,32 +3,11 @@
 // All of the Node.js APIs are available in this process.
 
 const serialport = require('serialport')
-/*
-const tableify = require('tableify')
-
-serialport.list((err, ports) => {
-  console.log('ports', ports);
-  if (err) {
-    document.getElementById('error').textContent = err.message
-    return
-  } else {
-    document.getElementById('error').textContent = ''
-  }
-
-  if (ports.length === 0) {
-    document.getElementById('error').textContent = 'No ports discovered'
-  }
-
-  tableHTML = tableify(ports)
-  document.getElementById('ports').innerHTML = tableHTML
-})
-*/
 
 var THREE = require('three');
 var Stats = require('./node_modules/three/examples/js/libs/stats.min.js');
 var dat = require('./node_modules/three/examples/js/libs/dat.gui.min.js');
 var GLTFLoader = require('./node_modules/three/examples/js/loaders/GLTFLoader.js');
-//import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
 
 let animationId;
 let cube;
@@ -208,6 +187,7 @@ function createGUI(model, animations) {
 
 }
 
+
 function fadeToAction(name, duration) {
 
     previousAction = activeAction;
@@ -237,7 +217,6 @@ function onWindowResize() {
 
 }
 
-//
 
 function animate() {
 
@@ -251,26 +230,6 @@ function animate() {
 
     stats.update();
 
-}
-
-
-
-function animate2() {
-
-    animationId = requestAnimationFrame(animate);
-
-    cube.rotation.x += 0.01;
-    cube.rotation.y += 0.01;
-
-    render();
-}
-
-
-function render2() {
-
-    camera.lookAt(scene.position);
-
-    renderer.render(scene, camera);
 }
 
 
@@ -317,21 +276,15 @@ port.open(() => {
 
 function processData(data) {
     if (data.indexOf('PLAY') == 0) {
-        // Handle NEXT received
-        //animate();
-        //activeAction = actions['Walking'];
-        //activeAction.play();
+        // Handle PLAY received
         fadeToAction("Walking", 0.2);
 
     } else if (data.indexOf('PAUSE') == 0) {
-        // Handle PREVIOUS received
-        //stop();
-        //activeAction = actions['Idle'];
-        //activeAction.play();
+        // Handle PAUSE received
         fadeToAction("Idle", 0.2);
 
     } else if (data.indexOf('DISASSEMBLE') == 0) {
-        // Handle SHUFFLE received
+        // Handle DISASSEMBLE received
         fadeToAction("Death", 0.2);
     }
 }
