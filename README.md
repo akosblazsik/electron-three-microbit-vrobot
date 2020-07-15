@@ -21,6 +21,8 @@ git clone https://github.com/akosblazsik/microbit-vrobot.git
 cd microbit-vrobot
 # Install dependencies
 npm install
+# Make sure that port are readable, for example on Linux (Ubuntu): 
+sudo chmod 666 /dev/ttyACM0
 # Run the app
 npm start
 ```
