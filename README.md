@@ -32,8 +32,8 @@ npm start
 - The remote control: https://github.com/akosblazsik/microbit-vrobot-remote-control
 
 ## Learn More
-- Electron [documentation](https://electron.atom.io/docs/).
-- Serialport [documentation](https://serialport.io/docs/).
-- Three.js [documentation](https://threejs.org/docs/).
+- Electron [documentation](https://electron.atom.io/docs/)
+- Serialport [documentation](https://serialport.io/docs/)
+- Three.js [documentation](https://threejs.org/docs/)
 
 #### License [CC0 1.0 (Public Domain)](LICENSE.md)
