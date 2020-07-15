@@ -11,7 +11,7 @@ The basic Electron application needs just these files:
 
 The micro:bit files:
 
-- `microbit-receiver.hex` - The program to be transfered to the receiver (connected to a usb port) micro:bit device.
+- `microbit-receiver.hex` - The program to be transfered to the receiver micro:bit device.
 - `microbit-remote-control.hex` - The program to be transfered to the remote control micro:bit device.
 
 ## To Use
