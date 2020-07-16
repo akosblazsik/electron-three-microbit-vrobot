@@ -41,4 +41,4 @@ npm start
 - Three.js [documentation](https://threejs.org/docs/)
 
 #### License Electron [CC0 1.0 (Public Domain)](LICENSE.md)
-#### License Three.js Example and 3D Artwork [MIT](https://github.com/akosblazsik/microbit-vrobot/blob/master/LICENSE.md)
+#### License Three.js Example and 3D Artwork [MIT](https://github.com/mrdoob/three.js/blob/dev/LICENSE)
