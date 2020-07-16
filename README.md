@@ -40,5 +40,5 @@ npm start
 - Serialport [documentation](https://serialport.io/docs/)
 - Three.js [documentation](https://threejs.org/docs/)
 
-#### License Electron [CC0 1.0 (Public Domain)](LICENSE.md)
+#### License Electron Example [CC0 1.0 (Public Domain)](LICENSE.md)
 #### License Three.js Example and 3D Artwork [MIT](https://github.com/mrdoob/three.js/blob/dev/LICENSE)
